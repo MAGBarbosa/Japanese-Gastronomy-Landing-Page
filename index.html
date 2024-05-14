@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Japanese Gastronomy</title>
+    <style>
+      html {
+        background: linear-gradient(
+          74.3deg,
+          rgb(68, 17, 28) 17.4%,
+          rgb(95, 24, 40) 34.7%,
+          rgb(122, 31, 51) 51.8%,
+          rgb(149, 38, 62) 67.4%,
+          rgb(163, 41, 68) 89.6%
+        );
+      }
+      h1 {
+        margin: 0;
+        padding-bottom: 15px;
+        font-size: 50px;
+        text-shadow: 1px 1px 4px rgb(182, 180, 180);
+        font-family: "Times New Roman", Times, serif;
+        line-height: normal;
+        max-width: 500px;
+      }
+      h2 {
+        margin: 30px 15px 10px 15px;
+        font-size: 30px;
+        text-shadow: 1px 1px 2px rgb(182, 180, 180);
+        font-family: "Times New Roman", Times, serif;
+        text-align: left;
+      }
+      p {
+        max-width: 500px;
+        text-align: left;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 17px;
+        margin: 15px 15px 15px 15px;
+      }
+      .container {
+        max-width: 550px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 30px 30px 10px 30px;
+        background-color: #28030b;
+        color: #fefefd;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.4);
+      }
+      img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 20px;
+      }
+
+      button {
+        box-shadow: inset 0px 1px 0px 0px #f7c5c0;
+        background: linear-gradient(to bottom, #c74763 5%, #9f2842 100%);
+        background-color: #9f2842;
+        color: #fefefd;
+        border-radius: 6px;
+        border: 1px solid #f7c5c0;
+        display: inline-block;
+        cursor: pointer;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 6px 24px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #b23e35;
+      }
+
+      button:hover {
+        background: linear-gradient(to bottom, #e4685d 5%, #e24334 100%);
+        background-color: #e13e2f;
+      }
+
+      #grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-gap: 17px;
+        margin: 0px 15px;
+        padding-top: 15px;
+      }
+
+      .foods:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+        transition: all 400ms ease-in-out;
+      }
+
+      .learn-more {
+        font-size: 17px;
+        padding-top: 10px;
+        text-align: left;
+      }
+      .footer {
+        max-width: 500px;
+        text-align: center;
+        padding-top: 20px 0px 10px 0px;
+      }
+      .myLinks {
+        color: #c82121;
+      }
+      .myLinks:visited {
+        color: #e4685d;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Japanese Gastronomy</h1>
+      <hr />
+      <p>
+        <strong>Japan</strong> has been listed as one of the
+        <strong>best food countries</strong> in the world.
+        <br />
+        <br />
+      </p>
+      <p>
+        Japanese cuisine is characterized by <strong>skilled artistry</strong>,
+        <strong>minimalism</strong> and
+        <strong>high-quality ingredients</strong>.
+      </p>
+
+      <h2>Explore these culinary delights</h2>
+      <hr />
+      <div id="grid">
+        <div>
+          <a href="https://en.wikipedia.org/wiki/Sushi" target="_blank"
+            ><img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/166/original/bou_omakase_2.jpg?1685026985"
+              alt="sushi and sashimi"
+              class="foods"
+          /></a>
+        </div>
+
+        <div>
+          <a href="https://en.wikipedia.org/wiki/Ramen" target="_blank"
+            ><img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/171/original/ramen.jpg?1685027565"
+              alt="Ramen"
+              class="foods"
+          /></a>
+        </div>
+
+        <div>
+          <a href="https://en.wikipedia.org/wiki/Tempura" target="_blank"
+            ><img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/167/original/tempura.jpg?1685027035"
+              alt="Tempura"
+              class="foods"
+          /></a>
+        </div>
+
+        <div>
+          <a href="https://en.wikipedia.org/wiki/Okonomiyaki" target="_blank"
+            ><img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/170/original/okonomiyaki.jpg?1685027537"
+              alt="Okonomiyaki"
+              class="foods"
+          /></a>
+        </div>
+
+        <div>
+          <a href="https://en.wikipedia.org/wiki/Takoyaki" target="_blank"
+            ><img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/172/original/Takoyaki.jpg?1685027585"
+              alt="Takoyaki"
+              class="foods"
+          /></a>
+        </div>
+
+        <div>
+          <a href="https://en.wikipedia.org/wiki/Donburi" target="_blank"
+            ><img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/173/original/chicken-teriyaki-donburi.jpg?1685027607"
+              alt="Donburi"
+              class="foods"
+          /></a>
+        </div>
+
+        <div>
+          <a href="https://en.wikipedia.org/wiki/Jiaozi" target="_blank"
+            ><img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/168/original/Gyoza-3107-IV.jpg?1685027484"
+              alt="Gyoza"
+              class="foods"
+          /></a>
+        </div>
+
+        <div>
+          <a href="https://en.wikipedia.org/wiki/Wagashi" target="_blank">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/174/original/1355978076_23b1376327_b.jpg?1685027633"
+              alt="Wagashi"
+              class="foods"
+          /></a>
+        </div>
+
+        <div>
+          <a href="https://en.wikipedia.org/wiki/Dango" target="_blank">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/169/original/Mitarashi-Dango-0697-II.jpg?1685027515"
+              alt="Dango"
+              class="foods"
+            />
+          </a>
+        </div>
+      </div>
+      <br />
+      <span class="learn-more">
+        Would you like to learn more about Japanese cuisine?
+        <a
+          href="https://en.wikipedia.org/wiki/Japanese_cuisine"
+          target="_blank"
+          class="myLinks"
+        >
+          Explore other options.
+        </a>
+      </span>
+      <br />
+      <br />
+      <button class="restaurants">Look for a restaurant</button>
+      <br />
+      <br />
+      <hr />
+      <p class="footer">
+        This page was built by
+        <a
+          href="https://www.linkedin.com/in/m%C3%A9lanie-barbosa-267778257/"
+          target="_blank"
+          class="myLinks"
+        >
+          Mélanie Barbosa.
+        </a>
+      </p>
+    </div>
+  </body>
+  <script>
+    function reply() {
+      let locationJapan = prompt(
+        "Are you looking for restaurants in Japan? Yes or no."
+      );
+      locationJapan = locationJapan.toLowerCase().trim();
+      if (locationJapan === "yes") {
+        alert("Redirecting you to Japanese Tripadvisor");
+        window.location.href =
+          "https://www.tripadvisor.com/Restaurants-g294232-Japan.html";
+      } else if (locationJapan === "no") {
+        alert(
+          "Redirecting you to TripAdvisor. Please search for top japanese restaurants near your location."
+        );
+        window.location.href = "https://www.tripadvisor.com/";
+      } else {
+        alert("Sorry. Your reply is not a valid option. 🤷‍♀️");
+      }
+    }
+    let restaurantSearch = document.querySelector(".restaurants");
+    restaurantSearch.addEventListener("click", reply);
+  </script>
+</html>
